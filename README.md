@@ -57,6 +57,7 @@ ch584-flash flash firmware.hex --method uart --port /dev/ttyUSB0
 ### 2. Flash DataFlash (EEPROM)
 
 **Note:** The tool strictly enforces a **32KB** file size for EEPROM writes.
+[Read the detailed technical explanation here](DATAFLASH_DETAILS.md).
 
 **USB Mode (Native Driver):**
 ```bash
